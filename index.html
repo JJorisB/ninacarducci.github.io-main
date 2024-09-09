@@ -2,6 +2,31 @@
 <html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Nina Carducci | Photographe Portraits, Mariages, Événements en
+      Île-de-France
+    </title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Nina Carducci",
+        "image": "./assets/images/nina.webp",
+        "jobTitle": "Profession",
+        "priceRange": "50€ - 400€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 Avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+        "telephone": "+33-5-56-67-78-89",
+        "openingHours": "Mo-Fr 10:00-19:00",
+        "url": "https://jjorisb.github.io/ninacarducci.github.io-main/"
+      }
+    </script>
     <meta
       name="description"
       content="Découvrez le portfolio de Nina Carducci, photographe passionnée spécialisée dans les portraits, mariages et événements en Île-de-France. Réservez votre séance photo dès maintenant."
@@ -10,10 +35,7 @@
       name="keywords"
       content="photographe, portraits, mariages, événements, Île-de-France, Nina Carducci"
     />
-    <title>
-      Nina Carducci | Photographe Portraits, Mariages, Événements en
-      Île-de-France
-    </title>
+
     <meta
       property="og:title"
       content="Nina Carducci | Photographe Portraits, Mariages, Événements en Île-de-France"
@@ -28,7 +50,6 @@
     />
     <meta property="og:url" content="https://www.ninacarducci.com" />
     <meta property="og:type" content="website" />
-
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,7 +61,7 @@
     <meta charset="UTF-8" />
   </head>
   <body>
-    <div class="top-header">
+    <nav class="top-header">
       <h1 class="name">Nina Carducci</h1>
       <div class="nav">
         <ul>
@@ -58,8 +79,8 @@
           </li>
         </ul>
       </div>
-    </div>
-    <div id="header">
+    </nav>
+    <header id="header">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -129,8 +150,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
-    <div id="about">
+    </header>
+    <section id="about">
       <div class="picture left">
         <img src="./assets/images/nina.webp" alt="Photo de Nina" />
       </div>
@@ -152,8 +173,8 @@
           lumière à chaque fois que vous poserez les yeux sur vos photos.
         </p>
       </div>
-    </div>
-    <div id="gallery">
+    </section>
+    <main id="gallery">
       <h3 class="title">Portfolio</h3>
       <div class="container py-3">
         <div class="gallery" style="display: none">
@@ -226,8 +247,8 @@
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </div>
-    </div>
-    <div id="services">
+    </main>
+    <section id="services">
       <h3 class="title">Mes services</h3>
       <div class="container">
         <div class="service">
@@ -271,8 +292,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="quote">
+    </section>
+    <section class="quote">
       <figure>
         <blockquote>
           <p class="quote__text">
@@ -283,8 +304,8 @@
         </blockquote>
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
-    </div>
-    <div id="contact">
+    </section>
+    <footer id="contact">
       <div class="container">
         <div class="form-container">
           <p>Une question ? Une demande de devis ?</p>
@@ -310,7 +331,7 @@
           <img src="./assets/images/camera.webp" alt="Picture of my camera" />
         </div>
       </div>
-    </div>
+    </footer>
   </body>
   <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
   <script
