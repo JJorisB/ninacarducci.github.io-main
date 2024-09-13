@@ -154,6 +154,16 @@ body {
   font-weight: 800;
   font-size: 22px;
 }
+.carousel-control-next-icon {
+  color: #beb45a;
+  height: 50px;
+  width: 50px;
+}
+.carousel-control-prev-icon {
+  color: #beb45a;
+  height: 50px;
+  width: 50px;
+}
 
 #services {
   margin: auto;
